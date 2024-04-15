@@ -1,0 +1,11 @@
+div.row > div > div.row > div > a > img {
+    margin-bottom: 8px;
+}
+
+div.row > div > div.row > div > a > h6 {
+    text-align: center;
+}
+
+div.row > div > div.row > div {
+    margin-bottom: 65px;
+}

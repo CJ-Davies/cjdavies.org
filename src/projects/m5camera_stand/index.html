@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<!-- ======================================================================  -->
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <!-- Lightbox CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" />
+
+        <!-- custom CSS -->
+        <link rel="stylesheet" href="css/gallery.css" />
+
+        <title>M5Stack ESP32 camera stand</title>
+
+    </head>
+
+<!-- ======================================================================  -->
+
+    <body>
+        <section class='jumbotron text-center'>
+            <div class='container'>
+
+                <h1 class='jumbotron-heading'>M5Stack ESP32 camera stand</h1>
+                <p class='lead text-muted'>A simple but effective stand for one of the M5Stack ESP32 fisheye camera modules, using the supplied wall mounting clip &amp; an offcut of 20x20mm aluminium box section. Images from the camera feed into <a href="https://www.home-assistant.io/">Home Assistant</a> via <a href="https://esphome.io/">ESPHome</a>.<br />STL files available <a href="https://www.thingiverse.com/thing:4881873">on Thingiverse.</a></p>
+
+                <input type="button" class="btn btn-outline-primary" value="Back" onclick="location.href = 'http://cjdavies.org/projects/';">
+            </div>
+        </section>
+
+<!-- ======================================================================  -->
+
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="row justify-content-center">
+                    <a href="img/1.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                        <img src="img/1s.jpg" class="img-fluid img-thumbnail">
+                    </a>
+                    <a href="img/2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                        <img src="img/2s.jpg" class="img-fluid img-thumbnail">
+                    </a>
+                    <a href="img/3.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                        <img src="img/3s.jpg" class="img-fluid img-thumbnail">
+                    </a>
+                </div>
+                <div class="row justify-content-center">
+                    <a href="img/4.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                        <img src="img/4s.jpg" class="img-fluid img-thumbnail">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+<!-- ======================================================================  -->
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <!-- Lightbox JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g==" crossorigin="anonymous"></script>
+
+        <!-- for Lightbox -->
+        <script>
+            $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox({ wrapping: false });
+            });
+        </script>
+
+<!-- ======================================================================  -->
+
+    </body>
+
+</html>
