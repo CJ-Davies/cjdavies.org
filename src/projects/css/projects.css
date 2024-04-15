@@ -1,0 +1,17 @@
+div.row > div > div.row > div > a > img {
+    margin-bottom: 8px;
+}
+
+div.row > div > div.row > div > a > h5 {
+    text-align: center;
+}
+
+div.row > div > div.row > div {
+    margin-bottom: 65px;
+}
+
+div.row > div > div.row > div > p {
+    text-align: justify;
+    max-width: 90%;
+    margin: auto;
+}
