@@ -1,150 +1,617 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>CJ Davies</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom font & FA icons -->
-  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,400i,500,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-
-  <!-- Custom styles for this template -->
-  <link href="css/agency.css" rel="stylesheet">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CJ Davies</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
-<body id="page-top">
-
-<div class="navhead">
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand" href="#page-top">CJ Davies</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav text-uppercase ml-auto">
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="https://cjdavies.org/blog/">Blog (2009-2017)</a>
-          </li> -->
-          <li class="nav-item">
-            <a class="nav-link" href="mailto:info@cjdavies.org">Contact (email)</a>
-          </li>
-	  <li class="nav-item">
-	    <a class="nav-link" href="./CJ_Davies_0xC36B22E2_public.asc">PGP</a>
-	 </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Header -->
-  <header class="masthead">
-    <div class="overlay"></div> <!-- does the opacity -->
-    <div class="container h-100">
-      <div class="d-flex h-100 text-center align-items-center">
-        <div class="w-100">
-          <h1>Let's fly!</h1>
+<body>
+    <!-- Hero Banner -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Design. Make. Iterate.</h1>
+            <h3>DIY projects across electronics, drones &amp; 3D design</h3>
         </div>
-      </div>
-    </div>
-  </header>
+    </section>
 
-</div>
-
-  <!-- Team -->
-  <section class="bg-light page-section" id="team">
-    <br />
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-3">
-          <img class="img-fluid rounded headshot" src="img/DSC06960-1200.jpg" alt="">
+    <!-- About Author Section -->
+    <section class="about-author">
+        <div class="about-container">
+            <div class="about-content">
+                <h2>Hello, I'm CJ!</h2>
+                <p>Passionate about creating things that <em>usually</em> work. My projects span PCB design, IoT, 3D printing, HiFi audio &amp; drones. I hold a PhD in Computer Science and have worked commercially with drones in digital heritage &amp; healthcare. I embrace a design-make-iterate philosophy, sharing my work online as I go. Feel free to explore my projects, drop a comment/DM on the relevant platforms, or <a href="mailto:info@cjdavies.org">mail me</a> if you have any questions!</p>
+            </div>
+            <div class="social-links">
+                <a href="http://www.youtube.com/c/CJDavies" class="social-icon-wrapper">
+                    <span class="social-icon" title="YouTube">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                        </svg>
+                    </span>
+                    <span class="social-label">YouTube</span>
+                </a>
+                <a href="https://www.instagram.com/cj.fpv/" class="social-icon-wrapper">
+                    <span class="social-icon" title="Instagram">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.057-1.645.069-4.849.069-3.204 0-3.584-.012-4.849-.069-3.254-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zM5.838 12a6.162 6.162 0 1 1 12.324 0 6.162 6.162 0 0 1-12.324 0zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm4.965-10.322a1.44 1.44 0 1 1 2.881.001 1.44 1.44 0 0 1-2.881-.001z"/>
+                        </svg>
+                    </span>
+                    <span class="social-label">Instagram</span>
+                </a>
+                <a href="https://www.printables.com/@CJDavies_1044477" class="social-icon-wrapper">
+                    <span class="social-icon" title="Printables">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 20h16"/>
+                            <path d="M6 4h12v14H6z"/>
+                            <path d="M9 4v10"/>
+                            <path d="M15 4v10"/>
+                            <path d="M8 7h8"/>
+                            <path d="M12 7v3"/>
+                            <path d="M10.8 10.8h2.4"/>
+                            <path d="M9 14h6"/>
+                            <path d="M8 17h8"/>
+                            <circle cx="12" cy="11.8" r="0.8" fill="currentColor" stroke="none"/>
+                        </svg>
+                    </span>
+                    <span class="social-label">Printables</span>
+                </a>
+                <a href="https://rotorbuilds.com/profile/3654" class="social-icon-wrapper">
+                    <span class="social-icon" title="RotorBuilds">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                            <line x1="18" y1="6" x2="6" y2="18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                            <circle cx="6" cy="6" r="2.5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                            <circle cx="18" cy="6" r="2.5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                            <circle cx="18" cy="18" r="2.5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                            <circle cx="6" cy="18" r="2.5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                        </svg>
+                    </span>
+                    <span class="social-label">RotorBuilds</span>
+                </a>
+                <a href="https://www.etsy.com/shop/anjunaglow/" class="social-icon-wrapper">
+                    <span class="social-icon" title="Etsy">
+                        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path transform="translate(3.72 2.24)" d="M6.547 3.125v6.008s2.117 0 3.25-.086c.891-.156 1.055-.242 1.219-1.133l.328-1.305h.969l-.164 2.852.086 2.922h-.977l-.242-1.141c-.242-.812-.57-.977-1.219-1.055-.812-.086-3.25-.086-3.25-.086v5.039c0 .969.492 1.383 1.625 1.383h3.414c1.055 0 2.109-.086 2.766-1.625l.883-1.953h.82c-.086.406-.492 3.984-.57 4.789 0 0-3.086-.078-4.383-.078H5.25l-3.492.078v-.883l1.133-.25c.82-.164 1.062-.406 1.062-1.055 0 0 .086-2.195.086-5.852 0-3.648-.086-5.844-.086-5.844 0-.727-.242-.891-1.062-1.055l-1.133-.32v-.891l3.414.07h6.5c1.297 0 3.484-.234 3.484-.234s-.078 1.375-.164 4.625h-.891l-.328-1.141c-.32-1.461-.805-2.188-1.703-2.188H6.961c-.414.001-.414.079-.414.329z"/>
+                        </svg>
+                    </span>
+                    <span class="social-label">Etsy</span>
+                </a>
+                <a href="https://uk.linkedin.com/in/cjdav" class="social-icon-wrapper">
+                    <span class="social-icon" title="LinkedIn">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.475-2.236-1.986-2.236-1.081 0-1.722.722-2.004 1.413-.103.25-.129.599-.129.948v5.444h-3.554s.05-8.736 0-9.646h3.554v1.364c.429-.659 1.191-1.592 2.897-1.592 2.117 0 3.704 1.385 3.704 4.362v5.512zM5.337 9.432c-1.144 0-1.915-.762-1.915-1.713 0-.951.77-1.713 1.954-1.713 1.184 0 1.915.762 1.915 1.713 0 .951-.73 1.713-1.954 1.713zm1.538 11.02H3.731V9.466h3.144v11.986zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                    </span>
+                    <span class="social-label">LinkedIn</span>
+                </a>
+            </div>
         </div>
-        <div class="col-sm-9 text-center text-lg-left align-self-center">
-          <h6>CCST Networking, BSc/PhD Computer Science, multirotor &amp; fixed wing GVC with BVLOS experience</h6>
+    </section>
 
-          <p>I have worked commercially with drones in the digital heritage sector &amp; performed drone deliveries for the NHS.
-            <br/><br/>
-            See the links below for my content across various platforms.
-          </p>
+    <!-- Gallery Entries -->
+    <section class="gallery-section">
+        <h2 class="gallery-title">Recent Projects</h2>
 
-          </div>
-        </div>
-      </div>
-  </section>
+        <div class="gallery-container">
 
-  <!-- Links -->
-  <section class="bg-light page-section rounded" id="services">
-    <div class="container" style="max-width: 970 px;">
-      <div class="container-fluid">
-        <div class="row">
+            <!--
+            const TAG_LABELS = {
+                audio: "Audio",
+                electronics: "Electronics",
+                drones: "Drones",
+                woodworking: "Woodworking",
+                "3d-printing": "3D Printing",
+                iot: "IoT",
+                pcb: "PCB design",
+                cnc: "CNC",
+                computers: "Computers"
+            };
+            -->
 
-            <div class="col text-center">
-              <a href="/projects/"><i class="fas fa-tools fa-5x"></i><p>Projects</p></a>
-            </div>
+            <article class="gallery-card" data-tags="pcb,electronics,3d-printing">
+                <div class="card-image">
+                    <img src="./projects/anjunaglow_mini/img/12s.jpg" alt="AnjunaGlow Mini">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">AnjunaGlow Mini</h2>
+                    <p class="card-description">Miniaturized LED Anjuna logo with audio reactive capabilities</p>
+                    <a href="./projects/anjunaglow_mini/index.html" class="card-link"></a>
+                </div>
+            </article>
 
-            <div class="col text-center">
-              <a href="https://www.instagram.com/cj.fpv/"><i class="fab fa-instagram fa-5x"></i><p>Instagram</p></a>
-            </div>
+            <article class="gallery-card" data-tags="audio,woodworking">
+                <div class="card-image">
+                    <img src="./projects/tabaq4/img/thumb.jpg" alt="TABAQ BOX Speakers">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">TABAQ BOX Speakers</h2>
+                    <p class="card-description">My fourth pair of TABAQ speakers, using reclaimed wood & PLS-P830987 drivers</p>
+                    <a href="./projects/tabaq4/index.html" class="card-link"></a>
+                </div>
+            </article>
 
-            <div class="col text-center">
-              <a href="http://www.youtube.com/c/CJDavies"><i class="fab fa-youtube fa-5x"></i><p>YouTube</p></a>
-            </div>
-
-            <div class="col text-center">
-              <a href="https://rotorbuilds.com/profile/3654"><i class="fas fa-helicopter fa-5x"></i><p>Rotorbuilds</p></a>
-            </div>
-
-            <div class="col text-center">
-              <a href="https://www.thingiverse.com/cjdavies/designs"><i class="fas fa-cube fa-5x"></i><p>Thingiverse</p></a>
-            </div>
-
-            <div class="col text-center">
-              <a href="https://www.printables.com/@CJDavies_1044477"><i class="fas fa-cube fa-5x"></i><p>Printables</p></a>
-            </div>
-
-            <div class="col text-center">
-              <a href="https://uk.linkedin.com/in/cjdav"><i class="fab fa-linkedin fa-5x"></i><p>LinkedIn</p></a>
-            </div>
-
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="page-section" id="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <span class="copyright">Copyright &copy; CJ Davies 2024 - Design <a href="https://html5up.net/">html5up</a></span>
+            <article class="gallery-card" data-tags="woodworking">
+                <div class="card-image">
+                    <img src="./projects/organiser_shelves2/img/8s.jpg" alt="Workbench Organiser Shelves">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">Workbench Organiser Shelves</h2>
+                    <p class="card-description">Learning to use a doweling jig</p>
+                    <a href="./projects/organiser_shelves2/index.html" class="card-link"></a>
+                </div>
+            </article>
         </div>
 
-      </div>
-    </div>
-  </section>
+        <!-- Additional Galleries (Hidden by default) -->
+        <div class="gallery-container hidden-galleries" id="hiddenGalleries">
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+            <article class="gallery-card" data-tags="pcb,electronics,3d-printing">
+                <div class="card-image">
+                    <img src="./projects/anjunaglow/img/7s.jpg" alt="AnjunaGlow">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">AnjunaGlow</h2>
+                    <p class="card-description">LED Anjuna logo using a custom PCB</p>
+                    <a href="./projects/anjunaglow/index.html" class="card-link"></a>
+                </div>
+            </article>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+            <article class="gallery-card" data-tags="electronics,3d-printing">
+                <div class="card-image">
+                    <img src="./projects/anjuna/img/7s.jpg" alt="LED Anjuna Logo">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">LED Anjuna Logo</h2>
+                    <p class="card-description">An experiment with NeoPixels &amp; white 3D printed PLA</p>
+                    <a href="./projects/anjuna/index.html" class="card-link"></a>
+                </div>
+            </article>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/agency.min.js"></script>
+            <article class="gallery-card" data-tags="drones,cnc,electronics,3d-printing">
+                <div class="card-image">
+                    <img src="./projects/macroquad2/img/17s.jpg" alt="Macroquad multirotor drone frame">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">Macroquad multirotor drone frame</h2>
+                    <p class="card-description">Another iteration of my macro multirotor frame designs</p>
+                    <a href="./projects/macroquad2/index.html" class="card-link"></a>
+                </div>
+            </article>
 
-    </body>
+            <article class="gallery-card" data-tags="audio,woodworking">
+                <div class="card-image">
+                    <img src="./projects/tabaq3/img/12s.jpg" alt="TABAQ BOX speakers">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">TABAQ BOX speakers</h2>
+                    <p class="card-description">My third set of TABAQ speakers, this time the folded BOX version to use at my desk</p>
+                    <a href="./projects/tabaq3/index.html" class="card-link"></a>
+                </div>
+            </article>
 
+            <article class="gallery-card" data-tags="audio,woodworking">
+                <div class="card-image">
+                    <img src="./projects/boombox/img/thumbs.jpg" alt="Boombox">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">Boombox</h2>
+                    <p class="card-description">A speaker cabinet that ended up being just <em>slightly</em> more than my original vision called for</p>
+                    <a href="./projects/boombox/index.html" class="card-link"></a>
+                </div>
+            </article>
+
+            <article class="gallery-card" data-tags="drones,cnc,electronics,3d-printing">
+                <div class="card-image">
+                    <img src="./projects/macroy6/img/15s.jpg" alt="Macro Y6 multirotor drone frame">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">Macro Y6 multirotor drone frame</h2>
+                    <p class="card-description">A development of my macro quad frame, this time for tricopter/Y6 builds</p>
+                    <a href="./projects/macroy6/index.html" class="card-link"></a>
+                </div>
+            </article>
+
+            <article class="gallery-card" data-tags="3d-printing,iot">
+                <div class="card-image">
+                    <img src="./projects/m5camera_stand/img/3s.jpg" alt="M5Stack ESP32 camera stand">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">M5Stack ESP32 camera stand</h2>
+                    <p class="card-description">A simple but effective stand for one of the M5Stack ESP32 fisheye camera modules</p>
+                    <a href="./projects/m5camera_stand/index.html" class="card-link"></a>
+                </div>
+            </article>
+
+            <article class="gallery-card" data-tags="drones,cnc,electronics,3d-printing">
+                <div class="card-image">
+                    <img src="./projects/macroquad/img/19s.jpg" alt="Macroquad multirotor drone frame">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">Macroquad multirotor drone frame</h2>
+                    <p class="card-description">A fully custom carbon design that uses regular aluminium box section for arms, designed for component &amp; payload flexibility</p>
+                    <a href="./projects/macroquad/index.html" class="card-link"></a>
+                </div>
+            </article>
+
+            <article class="gallery-card" data-tags="3d-printing">
+                <div class="card-image">
+                    <img src="./projects/model_d_stand/img/3s.jpg" alt="Behringer Model D stand">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">Behringer Model D stand</h2>
+                    <p class="card-description">A simple desktop stand for the Model D, which allows cables coming out the Keystep to pass underneath</p>
+                    <a href="./projects/model_d_stand/index.html" class="card-link"></a>
+                </div>
+            </article>
+
+            <article class="gallery-card" data-tags="electronics">
+                <div class="card-image">
+                    <img src="./projects/workbench_light/img/6s.jpg" alt="KEA dining table workbench light">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">IKEA dining table workbench light</h2>
+                    <p class="card-description">A proper overhead light for my workbench, using 20mm aluminium box section, shelf brackets &amp; 24V 2835 LED tape</p>
+                    <a href="./projects/workbench_light/index.html" class="card-link"></a>
+                </div>
+            </article>
+
+            <article class="gallery-card" data-tags="3d-printing,electronics">
+                <div class="card-image">
+                    <img src="./projects/usbc_lipo/img/4s.jpg" alt="XT60 to USB-C PD3.0 charger">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">XT60 to USB-C PD3.0 charger</h2>
+                    <p class="card-description">A car lighter socket charger with 60W PD3.0 USB-C + two 18W QC3.0 USB-A outputs, transplanted into a new case with a well braced XT60E1-M input.</p>
+                    <a href="./projects/usbc_lipo/index.html" class="card-link"></a>
+                </div>
+            </article>
+
+            <article class="gallery-card" data-tags="audio,woodworking">
+                <div class="card-image">
+                    <img src="./projects/tabaq2/img/7s.jpg" alt="TABAQ TL speakers">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">TABAQ TL speakers</h2>
+                    <p class="card-description">Re-built the TABAQ speakers I use with my TV, this time cutting the wood myself instead of relying upon a shoddy online service</p>
+                    <a href="./projects/tabaq2/index.html" class="card-link"></a>
+                </div>
+            </article>
+
+            <article class="gallery-card" data-tags="3d-printing,electronics">
+                <div class="card-image">
+                    <img src="./projects/16x2/img/3s.jpg" alt="Wireless 16x2 LCD stand">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">Wireless 16x2 LCD stand</h2>
+                    <p class="card-description">A simple stand or base for an old 16x2 LCD + ESP8266, to display sensor data from Adafruit IO</p>
+                    <a href="./projects/16x2/index.html" class="card-link"></a>
+                </div>
+            </article>
+
+            <article class="gallery-card" data-tags="iot,3d-printing,electronics">
+                <div class="card-image">
+                    <img src="./projects/mqtt2/img/9s.jpg" alt="Better home automation/IoT with MQTT">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">Better home automation/IoT with MQTT</h2>
+                    <p class="card-description">Improved upon my previous designs with more accurate sensors &amp; better thermal separation</p>
+                    <a href="./projects/mqtt2/index.html" class="card-link"></a>
+                </div>
+            </article>
+
+            <article class="gallery-card" data-tags="woodworking">
+                <div class="card-image">
+                    <img src="./projects/organiser_shelves/img/4s.jpg" alt="Workbench mini organiser shelves">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">Workbench mini organiser shelves</h2>
+                    <p class="card-description">I love these tiny organisers, but always ended up wanting the one at the very bottom of the stack</p>
+                    <a href="./projects/organiser_shelves/index.html" class="card-link"></a>
+                </div>
+            </article>
+
+            <article class="gallery-card" data-tags="audio,woodworking">
+                <div class="card-image">
+                    <img src="./projects/speaker_wedges/img/4s.jpg" alt="Desktop speaker stands/wedges">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">Desktop speaker stands/wedges</h2>
+                    <p class="card-description">My old foam ones were too big and did not have enough uptilt, so I tried doing some bevel cuts with the tracksaw</p>
+                    <a href="./projects/speaker_wedges/index.html" class="card-link"></a>
+                </div>
+            </article>
+
+            <article class="gallery-card" data-tags="3d-printing,electronics,drones">
+                <div class="card-image">
+                    <img src="./projects/gcs/img/11s.jpg" alt="Raspberry Pi + Peli case ground control station">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">Raspberry Pi + Peli case ground control station</h2>
+                    <p class="card-description">A ground station computer for running Ardupilot's Mission Planner software out in the field</p>
+                    <a href="./projects/gcs/index.html" class="card-link"></a>
+                </div>
+            </article>
+
+            <article class="gallery-card" data-tags="woodworking">
+                <div class="card-image">
+                    <img src="./projects/drawers/img/5s.jpg" alt="IKEA Helmer workshop cart">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">IKEA Helmer workshop cart</h2>
+                    <p class="card-description">IKEA hacking like it's 2006 and a good excuse for more track saw practice</p>
+                    <a href="./projects/drawers/index.html" class="card-link"></a>
+                </div>
+            </article>
+
+            <article class="gallery-card" data-tags="woodworking,audio">
+                <div class="card-image">
+                    <img src="./projects/studio_rack/img/9s.jpg" alt="3U 19 inch studio rack">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">3U 19 inch studio rack</h2>
+                    <p class="card-description">A 3U 19 inch studio rack for my hifi amp and active crossover</p>
+                    <a href="./projects/studio_rack/index.html" class="card-link"></a>
+                </div>
+            </article>
+
+            <article class="gallery-card" data-tags="3d-printing,drones,electronics">
+                <div class="card-image">
+                    <img src="./projects/ev800dm/img/12s.jpg" alt="Eachine FPV goggle conversion">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">Eachine FPV goggle conversion</h2>
+                    <p class="card-description">I thought the board in the Eachine EV800DM would make for a great pocket FPV monitor, so set about designing a case and experimenting with some basic locating joints</p>
+                    <a href="./projects/ev800dm/index.html" class="card-link"></a>
+                </div>
+            </article>
+
+            <article class="gallery-card" data-tags="electronics,audio">
+                <div class="card-image">
+                    <img src="./projects/gainclone2/img/2s.jpg" alt="LM3886 Gainclone 2.1 amplifier">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">LM3886 Gainclone 2.1 amplifier</h2>
+                    <p class="card-description">An attempt to downsize my previous 2.1 amp solution, only partly successful as I ended up keeping the crossover separate</p>
+                    <a href="./projects/gainclone2/index.html" class="card-link"></a>
+                </div>
+            </article>
+
+            <article class="gallery-card" data-tags="iot,3d-printing,electronics">
+                <div class="card-image">
+                    <img src="./projects/mqtt/img/5s.jpg" alt="Home automation IoT with MQTT">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">Home automation and IoT with MQTT</h2>
+                    <p class="card-description">Using under 3 dollar ESP8266 WiFi microcontrollers and MQTT for relay control and environmental monitoring with Adafruit IO</p>
+                    <a href="./projects/mqtt/index.html" class="card-link"></a>
+                </div>
+            </article>
+
+            <article class="gallery-card" data-tags="drones,cnc,electronics,3d-printing">
+                <div class="card-image">
+                    <img src="./projects/everycopter/img/16s.jpg" alt="Everycopter multirotor drone hub system">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">Everycopter multirotor drone hub system</h2>
+                    <p class="card-description">My update to Flite Test's 2013 Anycopter platform and my first time getting carbon fibre CNC work done in China</p>
+                    <a href="./projects/everycopter/index.html" class="card-link"></a>
+                </div>
+            </article>
+
+            <article class="gallery-card" data-tags="audio,woodworking">
+                <div class="card-image">
+                    <img src="./projects/tabaq/img/3s.jpg" alt="TABAQ TL speakers">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">TABAQ TL speakers</h2>
+                    <p class="card-description">A pair of TABAQ TL quarter-wave transmission line speakers with 3 inch Tang Band drivers for my TV</p>
+                    <a href="./projects/tabaq/index.html" class="card-link"></a>
+                </div>
+            </article>
+
+            <article class="gallery-card" data-tags="audio,electronics">
+                <div class="card-image">
+                    <img src="./projects/beach_amp/img/5s.jpg" alt="Beach amplifier">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">Beach amplifier</h2>
+                    <p class="card-description">A quick and dirty portable amp build using a Sure Electronics board and a pair of 3S LiPo batteries in series</p>
+                    <a href="./projects/beach_amp/index.html" class="card-link"></a>
+                </div>
+            </article>
+
+            <article class="gallery-card" data-tags="audio,woodworking">
+                <div class="card-image">
+                    <img src="./projects/tham12/img/9s.jpg" alt="THAM 12 subwoofer">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">THAM 12 subwoofer</h2>
+                    <p class="card-description">A THAM 12 tapped horn PA sub with a PD.12SB30 driver</p>
+                    <a href="./projects/tham12/index.html" class="card-link"></a>
+                </div>
+            </article>
+
+            <article class="gallery-card" data-tags="3d-printing,electronics">
+                <div class="card-image">
+                    <img src="./projects/mirrorshades/img/5s.jpg" alt="Mirrorshades">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">Mirrorshades</h2>
+                    <p class="card-description">Part of my PhD research and my first proper encounter with 3D printing</p>
+                    <a href="./projects/mirrorshades/index.html" class="card-link"></a>
+                </div>
+            </article>
+
+            <article class="gallery-card" data-tags="computers">
+                <div class="card-image">
+                    <img src="./projects/nas/img/5s.jpg" alt="FreeNAS build">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">FreeNAS build</h2>
+                    <p class="card-description">My original FreeNAS build, which required some attention from a Dremel for the IBM and LSI card to fit</p>
+                    <a href="./projects/nas/index.html" class="card-link"></a>
+                </div>
+            </article>
+
+            <article class="gallery-card" data-tags="audio,woodworking">
+                <div class="card-image">
+                    <img src="./projects/small_speakers/img/2s.jpg" alt="3 inch Tang Band speakers">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">3 inch Tang Band speakers</h2>
+                    <p class="card-description">A partially successful attempt at designing and building mid/high cabinets using 3 inch fullrange Tang Band drivers</p>
+                    <a href="./projects/small_speakers/index.html" class="card-link"></a>
+                </div>
+            </article>
+
+            <article class="gallery-card" data-tags="audio,woodworking">
+                <div class="card-image">
+                    <img src="./projects/sub/img/11s.jpg" alt="8 inch reflex subwoofer">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">8 inch reflex subwoofer</h2>
+                    <p class="card-description">A reflex sub for home or bedroom use, using a cheap 8 inch Tang Band driver, designed in SketchUp &amp; simulated in WinISD</p>
+                    <a href="./projects/sub/index.html" class="card-link"></a>
+                </div>
+            </article>
+
+            <article class="gallery-card" data-tags="audio,electronics">
+                <div class="card-image">
+                    <img src="./projects/sub_amp/img/1s.jpg" alt="TDA8920 BTH subwoofer amp">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">TDA8920 BTH subwoofer amp</h2>
+                    <p class="card-description">A cheap sub amp using a bridged TDA8920 BTH board</p>
+                    <a href="./projects/sub_amp/index.html" class="card-link"></a>
+                </div>
+            </article>
+
+            <article class="gallery-card" data-tags="audio,electronics">
+                <div class="card-image">
+                    <img src="./projects/gainclone/img/5s.jpg" alt="LM3886 Gainclone amplifier">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">LM3886 Gainclone amplifier</h2>
+                    <p class="card-description">A pair of LM3886 Gainclone amps, originally built as physically separate monoblocks then retrofitted into a single 3U enclosure</p>
+                    <a href="./projects/gainclone/index.html" class="card-link"></a>
+                </div>
+            </article>
+
+            <article class="gallery-card" data-tags="audio,electronics">
+                <div class="card-image">
+                    <img src="./projects/sure_amp/img/7s.jpg" alt="Sure Electronics TK2050 amplifier">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">Sure Electronics TK2050 amplifier</h2>
+                    <p class="card-description">A stereo amplifier project based around a TK2050 board from Sure Electronics, with a separate linear power supply</p>
+                    <a href="./projects/sure_amp/index.html" class="card-link"></a>
+                </div>
+            </article>
+
+            <article class="gallery-card" data-tags="audio,electronics">
+                <div class="card-image">
+                    <img src="./projects/boomcase/img/4s.jpg" alt="Boomcase">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">Boomcase</h2>
+                    <p class="card-description">A boombox built using an old flight case, a Sure Electronics amp board, a lead acid battery &amp; a pair of car speakers</p>
+                    <a href="./projects/boomcase/index.html" class="card-link"></a>
+                </div>
+            </article>
+
+        </div>
+
+        <!-- Expand/Collapse Button -->
+        <div class="expand-container">
+            <button id="expandBtn" class="expand-btn" onclick="toggleGalleries()">
+                View All
+            </button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 CJ Davies</p>
+    </footer>
+
+    <script>
+        const TAG_LABELS = {
+            audio: "Audio",
+            electronics: "Electronics",
+            drones: "Drones",
+            woodworking: "Woodworking",
+            "3d-printing": "3D Printing",
+            iot: "IoT",
+            pcb: "PCB design",
+            cnc: "CNC",
+            computers: "Computers"
+        };
+
+        function getCardTags(card) {
+            const existingTags = (card.getAttribute('data-tags') || '')
+                .split(',')
+                .map((tag) => tag.trim().toLowerCase())
+                .filter(Boolean);
+
+            return existingTags;
+        }
+
+        function renderCardTags(card, tags) {
+            const cardContent = card.querySelector('.card-content');
+            if (!cardContent) return;
+
+            const existingChips = cardContent.querySelector('.card-tags');
+            if (existingChips) {
+                existingChips.remove();
+            }
+
+            const tagsContainer = document.createElement('div');
+            tagsContainer.className = 'card-tags';
+
+            if (!tags.length) {
+                return;
+            }
+
+            tags.forEach((tag) => {
+                const chip = document.createElement('span');
+                chip.className = 'card-tag';
+                chip.textContent = TAG_LABELS[tag] || tag.replace(/-/g, ' ');
+                tagsContainer.appendChild(chip);
+            });
+
+            const cardLink = cardContent.querySelector('.card-link');
+            if (cardLink) {
+                cardContent.insertBefore(tagsContainer, cardLink);
+            } else {
+                cardContent.appendChild(tagsContainer);
+            }
+        }
+
+        function initializeCardTags() {
+            const cards = document.querySelectorAll('.gallery-section .gallery-card');
+            cards.forEach((card) => {
+                const tags = getCardTags(card);
+                card.setAttribute('data-tags', tags.join(','));
+                renderCardTags(card, tags);
+            });
+        }
+
+        function toggleGalleries() {
+            const hiddenGalleries = document.getElementById('hiddenGalleries');
+            const expandBtn = document.getElementById('expandBtn');
+            
+            hiddenGalleries.classList.toggle('show');
+            
+            if (hiddenGalleries.classList.contains('show')) {
+                expandBtn.textContent = 'Show Less';
+            } else {
+                expandBtn.textContent = 'View All';
+            }
+        }
+
+        initializeCardTags();
+    </script>
+</body>
 </html>
