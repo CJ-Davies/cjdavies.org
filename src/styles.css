@@ -31,8 +31,7 @@ body {
     text-align: center;
     animation: fadeIn 0.8s ease;
     background: url('img/header.jpg') center/cover no-repeat;
-    /* min-height: 500px; */
-    min-height: 40vh;
+    min-height: 50vh;
     max-height: 50vh;
     display: flex;
     align-items: center;
