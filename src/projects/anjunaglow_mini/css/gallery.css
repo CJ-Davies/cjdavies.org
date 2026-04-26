@@ -172,7 +172,7 @@ body {
 }
 
 .video-container {
-    max-width: 960px;
+    max-width: 1040px;
     margin: 0 auto;
 }
 
@@ -183,9 +183,21 @@ body {
     margin-bottom: 24px;
 }
 
+.video-row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+}
+
+@media (max-width: 900px) {
+    .video-row {
+        grid-template-columns: 1fr;
+    }
+}
+
 .video-frame {
     position: relative;
-    padding-bottom: 56.25%;
+    padding-bottom: 177.78%;
     height: 0;
     overflow: hidden;
     border-radius: 14px;
