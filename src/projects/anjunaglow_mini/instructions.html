@@ -35,7 +35,7 @@
 
                 <p>That led to the first <a href="../anjunaglow/">AnjunaGlow</a> project, but I soon realised that if I wanted to make more than just a handful to share it had to be smaller, cheaper &amp; easier to build... hence AnjunaGlow Mini!</p>
 
-                <p>If you have any questions, feedback or just want to send me a photo, please don't hesitate to reach out! You can <a href="mailto:info@cjdavies.co.uk">mail me</a>, or find me on the official Anjuna Discord with the user ID <strong>cjdavies</strong></p>
+                <p>If you have any questions, feedback or just want to send me a photo, please don't hesitate to reach out! You can <a href="mailto:info@cjdavies.co.uk">mail me</a> or find me on the official Anjuna Discord with the user ID <strong>cjdavies</strong></p>
 
             </div>
             <div class="overview-specs-column">
@@ -43,7 +43,7 @@
                     <h3>Quick Start</h3>
                     <ul>
                         <li>Connect to USB power</li>
-                        <li>The default playlist alternates between sound reactive effects &amp; regular effects</li>
+                        <li>The default playlist will start, alternating between sound reactive effects &amp; regular effects</li>
                         <li>You'll see a WiFi hotspot called <strong>AnjunaGlow</strong></li>
                         <li>Connect with the password <strong>above&amp;beyond</strong></li>
                         <li>If you aren't automatically redirected, open a browser &amp; go to <strong>wled.me</strong> or <strong>4.3.2.1</strong></li>
@@ -115,12 +115,13 @@
                             <li>Take note of the address under the section <strong>mDNS address</strong>, this will look something like http://wled-2ffffc.local</li>
                             <li>Click/tap the <strong>[Save & Connect]</strong> button at the top</li>
                         </ol>
-                        You should now be able to access the sign from any device on your home WiFi network by going to the address you took note of in step 4.</p>
+                    </p>
+                        <p>You should now be able to access the sign from any device on your home WiFi network by going to the address you took note of in step 4.</p>
                         <p>If you use a home automation system like Home Assistant, you can also now integrate AnjunaGlow Mini with it.
                     </p>
 
-                    <p class="text-center"><em>When you connect the sign to power, it will automatically start the AnjunaGlow hotspot with the password above&amp;beyond if it can't connect to your home WiFi.</em></p>
-                    <p class="text-center"><em>So if you type the password to your home WiFiwrong, or take the sign away from your home, the AnjunaGlow hotspot will reappear.</em></p>
+                    <p class="text-center"><em>When you connect AnjunaGlow Mini to power, it will automatically start the AnjunaGlow hotspot with the password above&amp;beyond if it can't connect to your home WiFi.</em></p>
+                    <p class="text-center"><em>So if you type the password to your home WiFi wrong, or take AnjunaGlow Mini away from your home, the AnjunaGlow hotspot will reappear.</em></p>
                 </div>
 
                 <div class="instruction-step">
@@ -144,7 +145,7 @@
                     <p>This was one of the biggest features requested from people who bought the original AnjunaGlow, so I managed to squeeze in a tiny ICS-43434 I2S MEMS microphone. <strong>But it does have limitations.</strong></p>
                     <p>Due to manufacturing constraints, the opening for the microphone is on the <em>back</em> of the device (it is circled &amp; labeled 'mic'). If the device brushes against your bag, clothing, etc. the mic will pick this up.</p>
                     <p>WLED uses Autonomous Gain Control (AGC) to automatically adjust the sensitivity of the sound reactive feature. However the microphone &amp; the AGC reach their limit in very noisy environments. In club or festival environments, where sound levels are consistently very loud with limited crest factor, sound reactive effects will constantly trigger with little variation.</p>
-                    <p class="text-center"><strong>Sound reactive effects are best used at home, rather than the club.</strong></p>
+                    <p class="text-center"><strong>Sound reactive effects work better at home than at the club.</strong></p>
                 </div>
 
                 <div class="instruction-step">
@@ -155,8 +156,8 @@
 
                 <div class="instruction-step">
                     <h4>Software Reference/Recovery</h4>
-                    <p>AnjunaGlow Mini uses the <a href="https://mm.kno.wled.ge/">MoonModules</a> fork of <a href="https://kno.wled.ge/WLED">WLED</a> using the esp32S3_4MB_PSRAM_S build target.</p>
-                    <p> The WLED project is very powerful &amp; offers extensive customization options, but it's also possible to render your AnjunaGlow Mini non-functional if you alter settings without understanding what they do!</p>
+                    <p>AnjunaGlow Mini uses the <a href="https://mm.kno.wled.ge/">MoonModules</a> fork of <a href="https://kno.wled.ge/WLED">WLED</a>.</p>
+                    <p> The WLED project is very powerful &amp; offers extensive customization, but you can render your AnjunaGlow Mini non-functional if you alter settings without understanding what they do!</p>
 
                     <p>If you do something that makes your device non-functional, you can restore the default configuration &amp; the default presets using the files below. Go to <strong>Config</strong>, then <strong>Security &amp; Updates</strong>, scroll down to <strong>Backup &amp; Restore</strong>, then select &amp; upload the correct file in the corect place.</p>
 
