@@ -1,0 +1,118 @@
+/* Instructions Section Styles */
+
+.instructions-section {
+    padding: 60px 20px;
+    background: #f8f9fa;
+}
+
+.instructions-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.instructions-container h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+    color: #333;
+}
+
+.instruction-steps {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.instruction-step {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.instruction-step:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.instruction-step h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+.instruction-step p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.step-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.step-image {
+    overflow: hidden;
+    border-radius: 6px;
+    background: #f0f0f0;
+}
+
+.step-image figure {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.step-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.step-image:hover img {
+    transform: scale(1.05);
+}
+
+.step-image figcaption {
+    padding: 12px 10px;
+    background: #fff;
+    font-size: 0.9rem;
+    color: #666;
+    text-align: center;
+    font-weight: 500;
+    border-top: 1px solid #eee;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    .instructions-section {
+        padding: 40px 15px;
+    }
+
+    .instructions-container h2 {
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+
+    .instruction-steps {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .instruction-step {
+        padding: 20px;
+    }
+
+    .step-images {
+        gap: 10px;
+    }
+}
