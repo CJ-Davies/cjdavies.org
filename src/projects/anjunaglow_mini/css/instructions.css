@@ -1,3 +1,7 @@
+.hero {
+    background: url("../img/4.jpg") center 50%/cover no-repeat !important;
+}
+
 /* Instructions Section Styles */
 
 .instructions-section {
